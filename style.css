@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.map { grid-area: menu; }
+        .luzon1 { grid-area: main; }
+        .luzon2 { grid-area: test; }
+        .luzon3 { grid-area: footer; }
+        
+        
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'menu menu menu main main main'
+            'menu menu menu test test test'
+            'menu menu menu footer footer footer';
+        
+          gap: 10px;
+          background-color: rgb(21, 157, 236);
+          padding: 20px;
+          font-size: 1.2rem;
+        }
+    
+        .grid-container > div {
+          background-color: rgb(255, 255, 255);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+
+.grid-container .map{
+    background-color: rgb(21, 157, 236);
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(21, 157, 236);
+}
+h1{
+    justify-content: center;
+    display: flex;
+    color:white;
+    font-size: 8rem;
+}
+ 
+.map{
+    
+    width: 50vw;
+    
+}
+.luzon1,.luzon2, .luzon3 {
+    font-size: 1.2rem;
+    border: 2px solid #000000;
+    padding: 20px;
+    color: #000000;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+p{
+    font-size: 1rem;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.despic{
+    max-width: 380px;
+    margin-top: 1vh;
+    height: 30vh;
+}
+img{
+    margin-left: 1ch;
+}
+.map .lvm{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
